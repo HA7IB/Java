@@ -6,3 +6,51 @@ public class Main{
         System.out.println(herAge);
     }
 }
+
+
+
+
+
+//Primitive type
+package com.company;
+public class Main{
+    public static void main(String[] args){
+        byte age0 = 100;
+        int age1 = 1000000000;
+        long age2 = 222222222222222222L;
+        char letter = 'A';
+        float age3 = 33.3F;
+        double age4 = 33.2;
+        boolean age5 = true;
+    }
+}
+
+
+//eg 2
+package com.company;
+
+public class Main{
+    public static void main(String[] args){
+        byte x= 1;
+        byte y=x;
+        x= 5;
+        System.out.println(y);
+    }
+}
+
+
+
+
+
+//Reference type
+//This code will show current time of your device
+package com.company;
+
+import java.util.Date;
+
+public class Main{
+    public static void main(String[] args){
+        Date now = new Date();
+        System.out.println(now);
+    }
+}
