@@ -1,0 +1,17 @@
+package com.company;
+
+public class Main{
+    public static void main(String[] args){
+        String samira = "  Bolod \n !!";
+        System.out.println(samira);
+
+        String samir = "  Bolod \t !!";
+        System.out.println(samir);
+//for qoutation
+        String sami = "  Bolod  \"!!\"";
+        System.out.println(sami);
+//for / addresses
+        String sam = "c:\\windows\\user\\..";
+        System.out.println(sam);
+    }
+}
