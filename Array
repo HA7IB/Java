@@ -13,7 +13,7 @@ public class Main{
 
 
 //eg 2(old system)
-
+//must use toString() for print
 package com.company;
 
 import java.lang.reflect.Array;
@@ -28,3 +28,65 @@ public class Main{
         System.out.println(Arrays.toString(numbers));
     }
 }
+
+
+
+
+//2d arrays
+//must use deepToString() for print
+package com.company;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Main{
+    public static void main(String[] args){
+        //for 2x3 matrix(2 row 3 column)
+        int[][] numbers = new int[2][3];
+        numbers[0][0]=1;
+        numbers[0][1]=2;
+        numbers[0][2]=5;
+        numbers[1][0]=3;
+        System.out.println(Arrays.deepToString(numbers));
+    }
+}
+
+
+//eg 2
+package com.company;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Main{
+    public static void main(String[] args){
+        //for 2x3 matrix(2 row 3 column)
+        int[][] numbers = {{1,3,2},{2,3,5}};
+        System.out.println(Arrays.deepToString(numbers));
+    }
+}
+
+
+
+
+
+
+//3d array
+package com.company;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Main{
+    public static void main(String[] args){
+        //for 2x3 matrix(2 row 3 column)
+        int[][][] numbers = new int[2][3][5];
+        numbers[0][0][0]=1;
+        numbers[0][1][0]=2;
+        numbers[0][2][0]=5;
+        numbers[1][0][0]=3;
+        System.out.println(Arrays.deepToString(numbers));
+    }
+}
+
+
