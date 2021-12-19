@@ -8,6 +8,24 @@ public class Main{
 }
 
 
+//eg 2: string..(is reference type in java even tho it looks like primitive)
+package com.company;
+
+public class Main{
+    public static void main(String[] args){
+        String samira = "  Bolod" + "!";
+        System.out.println(samira.toLowerCase());
+        System.out.println(samira.toUpperCase());
+        //trims unnessery spaces.
+        System.out.println(samira.trim());
+        System.out.println(samira.length());
+        System.out.println(samira.indexOf("d"));
+        System.out.println(samira.replace("!" , "."));
+        System.out.println(samira.startsWith("!"));
+        System.out.println(samira.endsWith("!"));
+        System.out.println(samira);
+    }
+}
 
 
 
