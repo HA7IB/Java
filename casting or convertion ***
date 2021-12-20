@@ -1,0 +1,48 @@
+package com.company;
+
+public class Main{
+    public static void main(String[] args){
+        short x = 10;
+        int y =x + 5;
+        System.out.println(y);
+    }
+}
+//here short is converted into int value;
+
+
+
+//eg2:
+
+
+package com.company;
+
+public class Main{
+    public static void main(String[] args){
+        int y = 5;
+        double x = (double) y + 3.3;
+        System.out.println(x);
+
+        int z = (int) x + y;
+        System.out.println(z);
+    }
+}
+
+
+
+//eg 3:
+
+
+package com.company;
+
+public class Main{
+    public static void main(String[] args){
+        String x = "4";
+        int y = Integer.parseInt(x) + 2 ;
+        System.out.println(y);
+        double z = Double.parseDouble(x) + 2.2 ;
+        System.out.println(z);
+        double a = Float.parseFloat(x) + 2.222 ;
+        System.out.println(a);
+    }
+}
+
