@@ -22,3 +22,30 @@ public class Main{
         System.out.println(b);
     }
 }
+
+
+
+
+
+eg 2:
+
+
+
+package com.company;
+
+public class Main{
+    public static void main(String[] args){
+        //always generate random double number between 0-1
+        double result = Math.random();
+        System.out.println(result);
+        //0-100
+        double resul = Math.random() * 100;
+        System.out.println(resul);
+        //for int number 0-100
+        double resu = Math.round(Math.random() * 100);
+        System.out.println(resu);
+        //int 0-100
+        int res = (int)(Math.random() * 100);
+        System.out.println(res);
+    }
+}
