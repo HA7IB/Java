@@ -1,0 +1,29 @@
+//eg 1: 
+
+package com.company;
+
+import java.text.NumberFormat;
+
+public class Main{
+    public static void main(String[] args){
+        NumberFormat currency = NumberFormat.getCompactNumberInstance();
+        String result = currency.format(12332.3242);
+        System.out.println(result);
+    }
+}
+
+
+
+//eg 2:
+
+package com.company;
+
+import java.text.NumberFormat;
+
+public class Main{
+    public static void main(String[] args){
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        String result = percent.format(.1);
+        System.out.println(result);
+    }
+}
